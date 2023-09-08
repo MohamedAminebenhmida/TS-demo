@@ -15,3 +15,8 @@ let [user1,user2,...restusers]:User[]=[{name:"paoulo",id:1,email:""},{name:"paou
 /*console.log(user2);*/
 let usersup=restusers.filter((user)=>user.id>3);
 console.log(usersup);
+class component { 
+    constructor(public name:string){
+        
+    }
+}
